@@ -7,38 +7,32 @@ This is the code repository for [Internet of Things with Python](https://www.pac
 The code included with this book is meant for use as an aid in performing the exercises and should not be used as a replacement for the book itself.
 Used out of context, the code may result in an unusable configuration and no warranty is given.
 
-The commands and instructions will look like the following:
+The code will look like the following:
 ```
-==== Interface configurations ====
+class NumberInLeds:
+    def __init__(self):
+        self.leds = []
+        for i in range(9, 0, -1):
+            led = Led(i, 10 - i)
+            self.leds.append(led)
 
-# ifcfg-enp0s3
+    def print_number(self, number):
+        print("==== Turning on {0} LEDs ====".format(number))
+        for j in range(0, number):
+            self.leds[j].turn_on()
+        for k in range(number, 9):
+            self.leds[k].turn_off()
 
-TYPE=Ethernet
-BOOTPROTO=none
-DEFROUTE=no
-IPV4_FAILURE_FATAL=no
-IPV6INIT=no
-NAME=enp0s3
-DEVICE=enp0s3
-ONBOOT=yes
-IPADDR=10.254.254.100
-PREFIX=24
 
-# ifcfg-enp0s9
+if __name__ == "__main__":
+    print ("Working with wiring-x86 on Intel Galileo Gen 2")
 
-TYPE=Ethernet
-BOOTPROTO=dhcp
-DEFROUTE=yes
-IPV4_FAILURE_FATAL=no
-IPV6INIT=no
-NAME=enp0s9
-DEVICE=enp0s9
-ONBOOT=yes 
+    number_in_leds = NumberInLeds()
+    # Count from 0 to 9
+    for i in range(0, 10):
+        number_in_leds.print_number(i)
+        time.sleep(3)
 
-# Enabling interfaces
-
-sudo ifdown enp0s3; sudo ifdown enp0s9; 
-sudo ifup enp0s3; sudo ifup enp0s9;
 ```
 
 
