@@ -1,6 +1,7 @@
 #Internet of Things with Python
 
-This is the code repository for [Internet of Things with Python](https://www.packtpub.com/hardware-and-creative/internet-things-python), published by Packt. It contains all the supporting project files necessary to work through the book from start to finish.
+This is the code repository for [Internet of Things with Python](https://www.packtpub.com/hardware-and-creative/internet-things-python?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781785881381
+), published by Packt. It contains all the supporting project files necessary to work through the book from start to finish.
 
 ##Instructions and Navigation
 
