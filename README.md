@@ -38,6 +38,6 @@ if __name__ == "__main__":
 
 
 ##Related OpenStack Products:
-* [Smarter Decisions - The Intersection of Internet of Things and Decision Science](https://www.packtpub.com/big-data-and-business-intelligence/smarter-decisions-intersection-internet-things-and-decision-scien)
-* [Internet of Things with the Arduino Yún](https://www.packtpub.com/hardware-and-creative/internet-things-arduino-y%C3%BAn)
+* [Smarter Decisions - The Intersection of Internet of Things and Decision Science](https://www.packtpub.com/big-data-and-business-intelligence/smarter-decisions-intersection-internet-things-and-decision-scien?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781785884191)
+* [Internet of Things with the Arduino Yún](https://www.packtpub.com/hardware-and-creative/internet-things-arduino-y%C3%BAn?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781783288007)
 
