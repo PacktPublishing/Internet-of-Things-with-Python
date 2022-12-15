@@ -1,3 +1,15 @@
+
+### Get this product for $5
+
+<i>Packt is having its biggest sale of the year. Get this eBook or any other book, video, or course that you like just for $5 each</i>
+
+
+<b><p align='center'>[Buy now](https://packt.link/9781785881381)</p></b>
+
+
+<b><p align='center'>[Buy similar titles for just $5](https://subscription.packtpub.com/search)</p></b>
+
+
 #Internet of Things with Python
 
 This is the code repository for [Internet of Things with Python](https://www.packtpub.com/hardware-and-creative/internet-things-python?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781785881381
